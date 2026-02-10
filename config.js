@@ -87,7 +87,3 @@ const CONFIG = {
 
 // Don't modify anything below this line unless you know what you're doing
 window.VALENTINE_CONFIG = CONFIG; 
-};
-
-// Don't modify anything below this line unless you know what you're doing
-window.VALENTINE_CONFIG = CONFIG; 
