@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓', '💘'],  // Heart emojis
         bears: ['🧸', '🐻', '🦦', '🐰', '🌸', '😘', '🧸', '🐻', '🦦', '🐰', '🌸', '😘']                       // Cute bear emojis
     },
 
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Aww you like me <3 🎉💝💖💝💓",
+        title: "Aww you like me <3",
         message: '<img src="images/cat-hugs.gif" alt="" style="width:200px; height:auto; display:block; margin:0 auto;">',
-        emojis: "💓💖💝❤️💕"  // These will bounce around
+        emojis: "💓💖💝💘❤️💗💕"  // These will bounce around
     },
 
     // Color scheme for the website
