@@ -61,31 +61,21 @@ window.addEventListener('DOMContentLoaded', () => {
     // Set texts from config
     document.getElementById('valentineTitle').textContent = `${config.valentineName}, `;
     
-    // First question
-document.getElementById('question1Text').textContent = config.questions.first.text;
-document.getElementById('yesBtn1').textContent = config.questions.first.yesBtn;
-const noBtn1 = document.getElementById('noBtn1');
-if (!config.questions.first.noBtn) {
-    noBtn1.style.display = "none";
-} else {
-    noBtn1.textContent = config.questions.first.noBtn;
-
-// Second question
-document.getElementById('question2Text').textContent = config.questions.second.text;
-document.getElementById('yesBtn2').textContent = config.questions.second.yesBtn;
-document.getElementById('noBtn2').textContent = config.questions.second.noBtn;
-document.getElementById('secretAnswerBtn2').textContent = config.questions.second.secretAnswer;
-
-// Third question
-document.getElementById('question3Text').textContent = config.questions.third.text;
-document.getElementById('startText').textContent = config.questions.third.startText;
-document.getElementById('nextBtn').textContent = config.questions.third.nextBtn;
-
-// Fourth question
-document.getElementById('question4Text').textContent = config.questions.fourth.text;
-document.getElementById('yesBtn4').textContent = config.questions.fourth.yesBtn;
-document.getElementById('noBtn4').textContent = config.questions.fourth.noBtn;
-
+    // Set first question texts
+    document.getElementById('question1Text').textContent = config.questions.first.text;
+    document.getElementById('yesBtn1').textContent = config.questions.first.yesBtn;
+    document.getElementById('noBtn1').textContent = config.questions.first.noBtn;
+    document.getElementById('secretAnswerBtn').textContent = config.questions.first.secretAnswer;
+    
+    // Set second question texts
+    document.getElementById('question2Text').textContent = config.questions.second.text;
+    document.getElementById('startText').textContent = config.questions.second.startText;
+    document.getElementById('nextBtn').textContent = config.questions.second.nextBtn;
+    
+    // Set third question texts
+    document.getElementById('question3Text').textContent = config.questions.third.text;
+    document.getElementById('yesBtn3').textContent = config.questions.third.yesBtn;
+    document.getElementById('noBtn3').textContent = config.questions.third.noBtn;
 
     // Create initial floating elements
     createFloatingElements();
@@ -246,6 +236,10 @@ function setupMusicPlayer() {
             musicToggle.textContent = config.music.stopText;
         } else {
             bgMusic.pause();
+            musicToggle.textContent = config.music.startText;
+        }
+    });
+} 
             musicToggle.textContent = config.music.startText;
         }
     });
