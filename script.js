@@ -240,7 +240,3 @@ function setupMusicPlayer() {
         }
     });
 } 
-            musicToggle.textContent = config.music.startText;
-        }
-    });
-} 
