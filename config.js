@@ -20,27 +20,24 @@ const CONFIG = {
 
     // Questions and answers
     // Customize each question and its possible responses
-    qquestions: {
-    first: {
-        text: "Answer Honestly",     // New first question
-        yesBtn: "Yes",
-        noBtn: "",                   // Hide the "No" button
+    questions: {
+        first: {
+            text: "Do you like me?",                                    // First interaction
+            yesBtn: "A little",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
+            secretAnswer: "Duh! ❤️"           // Secret hover message
+        },
+        second: {
+            text: "How much do you wish we weren't separated?",                          // For the love meter
+            startText: "This much!",                                   // Text before the percentage
+            nextBtn: "Next ❤️"                                         // Text for the next button
+        },
+        third: {
+            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            yesBtn: "Yes!",                                             // Text for "Yes" button
+            noBtn: "No"                                                 // Text for "No" button
+        }
     },
-    second: {
-        text: "Do you like me?",     // Previously the first question
-        yesBtn: "A little",
-        noBtn: "No",
-        secretAnswer: "Duh! ❤️"
-    },
-    third: {
-        text: "How much do you wish we weren't separated?",  // Previously second
-        startText: "This much!",
-        nextBtn: "Next ❤️"
-    },
-    fourth: {
-        text: "Will you be my Valentine on February 14th, 2026? 🌹", // Previously third
-        yesBtn: "Yes!",
-        noBtn: "No"
 
     // Love meter messages
     // They show up depending on how far they slide the meter
@@ -86,6 +83,10 @@ const CONFIG = {
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
+};
+
+// Don't modify anything below this line unless you know what you're doing
+window.VALENTINE_CONFIG = CONFIG; 
 };
 
 // Don't modify anything below this line unless you know what you're doing
