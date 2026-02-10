@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "okay chill out.. 👀",  // Shows when they go past 5000%
-        high: "I'd fly back tonight!! ✈️💝",              // Shows when they go past 1000%
+        high: "I'd fly back tonight!! ✈️❤️",              // Shows when they go past 1000%
         normal: "A lot! 🥰"                           // Shows when they go past 100%
     },
 
