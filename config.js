@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Aww you like me <3",
-        message: '<img src="images/cat-hugs.gif" alt="" style="width:200px; height:auto; display:block; margin:0 auto;">',
+        message: '<img src="cat-hugs.gif" alt="" style="width:200px; height:auto; display:block; margin:0 auto;">',
         emojis: "💓💖💝💘❤️💗💕"  // These will bounce around
     },
 
