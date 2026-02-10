@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Aww you like me <3",
         message: '<img src="cat-hugs.gif" alt="" style="width:200px; height:auto; display:block; margin:0 auto;">',
-        emojis: "💓💖💝💘❤️💗💕"  // These will bounce around
+        emojis: "💓💖💝❤️💗💕"  // These will bounce around
     },
 
     // Color scheme for the website
